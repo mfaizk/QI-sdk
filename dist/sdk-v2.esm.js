@@ -435,7 +435,7 @@ function currencyEquals(currencyA, currencyB) {
     return currencyA === currencyB;
   }
 }
-var WETH = (_WETH = {}, _WETH[ChainId.MAINNET] = /*#__PURE__*/new Token(ChainId.MAINNET, '0x3aF492C875829B69a0803f4688C54fb867C193DF', 18, 'WQIE', 'Wrapped QIE'), _WETH[ChainId.BSCTESTNET] = /*#__PURE__*/new Token(ChainId.BSCTESTNET, '0x3aF492C875829B69a0803f4688C54fb867C193DF', 18, 'WQIE', 'Wrapped QIE'), _WETH);
+var WETH = (_WETH = {}, _WETH[ChainId.MAINNET] = /*#__PURE__*/new Token(ChainId.MAINNET, '0x0087904D95BEe9E5F24dc8852804b547981A9139', 18, 'WQIE', 'Wrapped QIE'), _WETH[ChainId.BSCTESTNET] = /*#__PURE__*/new Token(ChainId.BSCTESTNET, '0x0087904D95BEe9E5F24dc8852804b547981A9139', 18, 'WQIE', 'Wrapped QIE'), _WETH);
 
 var _toSignificantRoundin, _toFixedRounding;
 var Decimal = /*#__PURE__*/toFormat(_Decimal);
